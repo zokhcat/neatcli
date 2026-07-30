@@ -15,6 +15,15 @@ NEATLOGS_API_KEY=nlw_xxx neatcli init --project my-project
 Creates `~/.neatlogs/config.yaml` and a `.neatlogs/` workspace in the current
 directory with `prompts/` and `tools/` subdirectories.
 
+## Build
+
+```
+make build
+make install
+make clean
+make run
+```
+
 ## Prompt management
 
 Works with the Neatlogs management API. Every prompt has a version history and
